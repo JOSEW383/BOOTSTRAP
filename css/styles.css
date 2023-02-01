@@ -1,0 +1,194 @@
+body {
+    font-size: 100%;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h2, h3{
+    font-weight: 600;
+}
+
+.color-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.subcolor-section{
+    background-color: Tomato;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* <a id="title"> <b class="navbar-brand> </b></a> */
+#title .navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size:  2rem;
+}
+
+/* <a id="navbar" class="navbar */
+#navbar.navbar{
+    margin-bottom: 4.5rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+#title{
+    text-align: left;
+}
+
+#tittle-text{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#tittle-block{
+    padding: 4% 15%;
+}
+
+.container-fluid {
+    padding-left: 0;
+}
+
+#iphone6-main{
+    position: absolute;
+    /* z-index: 0; */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    transform: rotate(20deg);
+    width: 17%;
+    right: 30%;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0
+}
+
+#features{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 9px;
+}
+
+.feature-column{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature-icon{
+    color:Tomato;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.feature-icon:hover{
+    color:red;
+    transform: scale(1.2);
+}
+
+.feature-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.feature-description{
+    color: #8f8f8f;
+}
+
+#testimonials{
+    padding: 4% 15%;
+    line-height: 1.5;
+}
+
+.testimonial-title{
+    font-weight: 600;
+}
+
+.testimonial-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press{
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 4% 15%;
+}
+
+.carousel-indicators{
+    margin: 0;
+}
+
+.row{
+    margin: 5%;
+}
+
+#pricing{
+    text-align: center;
+}
+
+.pricing-card{
+    margin-top: 3% 2%;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+#cta{
+    padding: 7% 15%;
+}
+
+.cta-tittle{
+    font-size: 3.5rem;
+}
+
+.cta-download-button{
+    margin: 2% 3% 2% 0;
+}
+
+#footer{
+    margin: 3%;
+}
+
+.footer-i{
+    padding: 7px;
+}
+
+.footer-p{
+    color: #8f8f8f;
+}
+
+
+/****** PHONE SCREENDS ******/
+@media (max-width: 991px) {
+    #iphone6-main{
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+
+    #title{
+        text-align: center;
+    }
+  }
