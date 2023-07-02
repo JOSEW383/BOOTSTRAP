@@ -3,6 +3,7 @@
 # Tindog
 
 Tindog is a web application designed as an example of an application developed with Bootstrap. The application simulates a dating platform for dogs, where dog owners can meet and connect with other dog owners.
+
 ![](https://github.com/JOSEW383/tindog/blob/master/public/TindogDemo.gif)
 
 ## Installation
